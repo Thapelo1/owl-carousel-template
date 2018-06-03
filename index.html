@@ -32,8 +32,14 @@ $('.owl-carousel').owlCarousel({
     lazyLoad: true,
     responsive:{
 
+        0:{
+            items: 1,
+            nav:true,
+            dots: false
+        },
+
         600:{
-            items:3
+            items: 3
         }
     }
 });
